@@ -150,6 +150,9 @@ address {
 }
 
 .contact-list .link {
+  display: flex;
+  align-items: center;
+
   color: var(--main-text-color);
 
   font-weight: 500;
@@ -607,7 +610,7 @@ address {
   align-items: center;
 }
 
-.social-links .item {
+.social-links .link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -619,8 +622,8 @@ address {
   cursor: pointer;
 }
 
-.social-links .item:hover,
-.social-links .item:focus {
+.social-links .link:hover,
+.social-links .link:focus {
   background-color: var(--accent-color);
 }
 
